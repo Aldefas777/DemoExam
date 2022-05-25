@@ -1,0 +1,25 @@
+﻿<Window x:Class="DemoExam_Makarov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoExam_Makarov"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40">
+                
+            </RowDefinition>
+            <RowDefinition Height="280">
+                
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnBack" Click="btnBack_Click" HorizontalAlignment="Right" Width="150" Height="30" FontSize="12" Foreground="White" Background="#FFFF4A60" Margin=" 0 0 10 0" FontFamily="Tahoma">Back</Button>
+        <Button x:Name="btnFAQ" Click="btnFAQ_Click" HorizontalAlignment="Right" Width="150" Height="30" FontSize="12" Foreground="White" Background="#FFFF4A60" Margin=" 0 0 170 0" FontFamily="Tahoma">FAQ</Button>
+        <Button x:Name="btnPost" Click="btnPost_Click" HorizontalAlignment="Right" Width="150" Height="30" FontSize="12" Foreground="White" Background="#FFFF4A60" Margin=" 0 0 330 0" FontFamily="Tahoma">Postavchik</Button>
+        <Button x:Name="btnModel" Click="btnModel_Click" HorizontalAlignment="Right" Width="150" Height="30" FontSize="12" Foreground="White" Background="#FFFF4A60" Margin=" 0 0 490 0" FontFamily="Tahoma">Model</Button>
+        <Button x:Name="btnSdelka" Click="btnSdelka_Click" HorizontalAlignment="Right" Width="150" Height="30" FontSize="12" Foreground="White" Background="#FFFF4A60" Margin=" 0 0 645 0" FontFamily="Tahoma">Sdelka</Button>
+        <Frame x:Name="FrmMain" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
+    </Grid>
+</Window>
